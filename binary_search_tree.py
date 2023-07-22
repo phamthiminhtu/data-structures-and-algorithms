@@ -95,7 +95,7 @@ class TreeNode(object):
 class BinarySearchTree(object):
     '''
         source: https://bradfieldcs.com/algos/trees/binary-search-trees/.
-        I only fix a small bug in method _put:
+        I only fix a minor bug in method _put:
             Originally, duplicate keys are not handled properly.
             As our tree is implemented a duplicate key will create a new node with the same key value in the right subtree of the node having the original key.
             The result of this is that the node with the new key will never be found during a search.
